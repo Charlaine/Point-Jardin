@@ -1,0 +1,153 @@
+body {
+	background-color: #EBECE4;
+}
+
+.Logo {
+	width: 100%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+ul {
+	list-style-type: none;
+	background: #228B22;
+	text-align: center;
+}
+li {
+	text-align: center;
+	padding: 0px 20px 0px 20px;
+}
+.video {
+	width: 70%;
+	height: auto;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+#menu, #menu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+#menu {
+    margin-top: 5%;
+    text-shadow: 5px 5px 12px #000000;
+}
+#menu li {
+/* on place les liens du menu horizontalement */
+    display: inline-block;
+    text-align: center;
+}
+#menu ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+}
+#menu a {
+    text-decoration: none;
+    display: block;
+	color: #FFFFF0;
+	text-align: center;
+}
+#menu ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: center;
+    z-index: 1000;
+}
+#menu li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+    background: #32CD32;
+}
+
+.container {
+	background: #696969;
+	width: 100%;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+button {
+	color: #228B22;
+}
+
+.contacts {
+	float: right;
+}
+
+.presentation {
+	text-align: center;
+	border: solid 1px;
+	background: #696969;
+	float: left;
+	width: 100%;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 28%;
+      margin: auto;
+  }
+h1 {
+	color: #FFFFF0;
+	font-size: 30px;
+	text-shadow:  5px 5px 12px #000000;
+}
+h2 {
+	color: #FFFFF0;
+	font-size: 20px; 
+	text-shadow: 5px 5px 12px #000000;
+}
+h3 {
+	color: #FFFAFA;
+	text-align: center;
+	font-size: 19px;
+}
+p {
+	color: #32CD32;
+	font-size: 20px;
+	text-shadow: 5px 5px 12px #000000;
+	margin-top: 3%;
+}
+.icon {
+	float: left;
+	margin-bottom: 1%;
+	margin-left: 7%;
+}
+.nouveautes {
+    text-align: center;
+    margin-top: 34%;
+    background: #696969;
+}
+h4 {
+	padding-right: 15px;
+	color: #32CD32;
+	text-shadow: 5px 5px 12px gray;
+	text-align: center;
+
+}
+h5 {
+	color: #32CD32;
+	text-align: center;
+	font-size: 14px;
+
+}
+.networks {
+	text-align: center;
+}
+.social {
+	padding-bottom: 25px;
+}
+
+footer
+{
+	background: #696969;
+	width: 100%;
+	border-radius: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
